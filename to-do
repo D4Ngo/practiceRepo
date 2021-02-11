@@ -4,7 +4,7 @@ This is test project
 
 Write a program to convert a matrix into sparse matrix for 3 tuple
 
-example
+Example
 
 give a matrix
 
@@ -16,7 +16,7 @@ A = 4 0 0 2 0 0
   
 The program should print a output of 3 column and n+1 rows where n is the number of positive integer in the given array
 
-example for the give array A the output will be
+Example for the give array A the output will be
 
 row   column    values
 5       6         6
@@ -27,11 +27,12 @@ row   column    values
 3       5         5
 4       2         2
 
-where first row has the value of number of rows and coloumns and number of positive number in the array respectively
+Where first row has the value of number of rows and coloumns and number of positive number in the array respectively
 2nd row 1st column has the value of the row of the 1st +ve integer in the array
 2nd row 2nd column has the column of the 1st +ve number
 2nd row 3rd has the value of the first positive number
 
-example if we read the array row wise than the first positive number will be 9 and it row and column will be 0 and 4 so the 2nd row has the value 0   4     9
+Example if we read the array row wise than the first positive number will be 9 and it row and column will be 0 and 4 so the 2nd row has the value 0   4     9
 continue printing this until you reach the last positive number in the array
+
   
