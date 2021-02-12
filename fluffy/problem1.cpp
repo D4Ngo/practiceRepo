@@ -52,7 +52,7 @@ void getSparseArr(int row,int col,int p){
 
 }
 void displaySparseArr(int p,int row ,int col){
-    cout<<"\nRow"<<"Column"<<"Values"<<endl;
+    cout<<"\nRow "<<"Column "<<"Values "<<endl;
     cout<<row<<"\t"<<col<<"\t"<<p<<endl;
     int k=0;
     for(int i =0;i<p;i++){
