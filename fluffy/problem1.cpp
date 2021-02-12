@@ -52,7 +52,7 @@ void getSparseArr(int row,int col,int p){
 
 }
 void displaySparseArr(int p,int row ,int col){
-    cout<<"\nRow "<<"Column "<<"Values "<<endl;
+    cout<<"\nRow\t"<<"Column\t"<<"Values"<<endl;
     cout<<row<<"\t"<<col<<"\t"<<p<<endl;
     int k=0;
     for(int i =0;i<p;i++){
@@ -74,6 +74,7 @@ int main(){
     displayArr(row,col);
     int posInt = getPosInt(row,col);
     getSparseArr(row,col,posInt);
+    cout<<"\nThe Sparse matrix:\n";
     displaySparseArr(posInt,row,col);
     return 0;
 }
