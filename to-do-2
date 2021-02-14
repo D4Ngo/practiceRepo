@@ -8,7 +8,7 @@ in the pattern match the corresponding character in the string. The pattern is s
 from I = 0 to n-m, and for wach shifting compare the pattern P[1 to m] with the string S[I+1 to I+m]
 
 Example
-Suppose the given string is S="abbcdabcd" and pattern string P = bcda
+Suppose the given string is S="abbcdabcd" and pattern string P = "bcda"
 
 So your program should be able to tell if the pattern P is available in string S or not.In our case we can say
 that pattern P is present in text S starting from index 2 of string S.
